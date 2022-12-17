@@ -5,5 +5,5 @@ env "local" {
 
   // Define the URL of the Dev Database for this environment
   // See: https://atlasgo.io/concepts/dev-database
-  dev = "postres://postgres:@localhost:5433/test?sslmode=disable&search_path=public"
+  dev = "postgres://postgres:@localhost:5433/test?sslmode=disable&search_path=public"
 }
